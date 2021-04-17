@@ -1,1 +1,43 @@
+:root {
+--main-font: font-family: 'Roboto', sans-serif;
+--main-color: color: #212121;
+}
+
+body {
+ font-family: var(--main-font);
+ color: var(--main-color);
+}
+
+
 /* NAWIGACJA PO STRONACH */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 31px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.logo-first-part {
+  color: #2196f3;
+}
+
+.header-links {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.header-contacts {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.header-links:hover,
+.header-links:focus,
+.header-contacts:hover,
+.header-contacts:focus {
+color: #2196F3;
+}

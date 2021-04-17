@@ -1,63 +1,78 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl-PL">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio</title>
   </head>
+
   <body>
-    <header>
-      <a href="#"><strong>WebStudio</strong></a>
+    <header class="header">
+      <a class="logo" href="./index.html">
+        <span class="logo-first-part">Web</span><span>Studio</span>
+      </a>
 
       <nav>
         <ul>
-          <li><a href="index.html">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a class="header-links" href="./index.html">Agencja</a></li>
+          <li><a class="header-links" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="header-links" href="#">Kontakt</a></li>
         </ul>
       </nav>
 
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="header-contacts" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="header-contacts" href="tel:+48111111111">+48 111 111 111</a>
     </header>
 
     <main>
-      <section>
+      <section class="main-first-section">
         <div>
-          <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <h1 class="priary-heading">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
         </div>
 
-        <button type="button">Zamów usługę</button>
+        <button class="main-first-section-btn" type="button">
+          Zamów usługę
+        </button>
       </section>
 
-      <section>
+      <section class="description-content">
         <div>
           <ul>
             <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
+              <h3 class="third-headin">LOREM IPSUM</h3>
+              <p class="description-content-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
                 assumenda reiciendis non eveniet dolorum fugit pariatur?
               </p>
             </li>
             <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
+              <h3 class="third-headin">LOREM IPSUM</h3>
+              <p class="description-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
                 assumenda reiciendis non eveniet dolorum fugit pariatur?
               </p>
             </li>
             <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
+              <h3 class="third-headin">LOREM IPSUM</h3>
+              <p class="description-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
                 assumenda reiciendis non eveniet dolorum fugit pariatur?
               </p>
             </li>
             <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
+              <h3 class="third-headin">LOREM IPSUM</h3>
+              <p class="description-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
                 assumenda reiciendis non eveniet dolorum fugit pariatur?
               </p>
@@ -66,13 +81,13 @@
         </div>
       </section>
 
-      <section>
-        <h2>Czym się zajmujemy</h2>
+      <section class="main-third-section">
+        <h2 class="secondary-heading">Czym się zajmujemy</h2>
         <div>
           <ul>
-            <li>
+            <li class="">
               <img
-                src="images/what_we_do/box_1.jpg"
+                src="./images/what_we_do/box_1.jpg"
                 alt="pisanie kodu na klawiaturze"
                 width="370"
                 height="294"
@@ -80,7 +95,7 @@
             </li>
             <li>
               <img
-                src="images/what_we_do/box_2.jpg"
+                src="./images/what_we_do/box_2.jpg"
                 alt="responsywność strony"
                 width="370"
                 height="294"
@@ -88,7 +103,7 @@
             </li>
             <li>
               <img
-                src="images/what_we_do/box_3.jpg"
+                src="./images/what_we_do/box_3.jpg"
                 alt="wybór kolorów do projektu"
                 width="370"
                 height="294"
@@ -98,48 +113,48 @@
         </div>
       </section>
 
-      <section>
-        <h2>Nasz zespół</h2>
+      <section class="our-team">
+        <h2 class="secondary-heading">Nasz zespół</h2>
         <div>
           <ul>
             <li>
               <img
-                src="images/our_team/card_1.jpg"
+                src="./images/our_team/card_1.jpg"
                 alt="John Doe"
                 width="270"
                 height="260"
               />
-              <h3>John doe</h3>
+              <h3 class="third-heading">John doe</h3>
               <p>Product Designer</p>
             </li>
             <li>
               <img
-                src="images/our_team/card_2.jpg"
+                src="./images/our_team/card_2.jpg"
                 alt="John Doe"
                 width="270"
                 height="260"
               />
-              <h3>John doe</h3>
+              <h3 class="third-heading">John doe</h3>
               <p>Frontend Developer</p>
             </li>
             <li>
               <img
-                src="images/our_team/card_3.jpg"
+                src="./images/our_team/card_3.jpg"
                 alt="John Doe"
                 width="270"
                 height="260"
               />
-              <h3>John doe</h3>
+              <h3 class="third-heading">John doe</h3>
               <p>Marketing</p>
             </li>
             <li>
               <img
-                src="images/our_team/card_4.jpg"
+                src="./images/our_team/card_4.jpg"
                 alt="John Doe"
                 width="270"
                 height="260"
               />
-              <h3>John doe</h3>
+              <h3 class="third-heading">John doe</h3>
               <p>UI Designer</p>
             </li>
           </ul>
@@ -148,7 +163,7 @@
     </main>
 
     <footer>
-      <a href="#"><strong>WebStudio</strong></a>
+      <a href="./index.html"><strong>WebStudio</strong></a>
 
       <address>
         <ul>
