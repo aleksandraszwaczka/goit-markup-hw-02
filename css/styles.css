@@ -132,6 +132,13 @@ body {
     color: #fff;
 }
 
+.our-team-description,
+.choosing-images-category {
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+}
+
 .description-content-text,
 .our-team-description,
 .choosing-images-category {
@@ -140,11 +147,4 @@ body {
 .main-first-section,
 .footer {
     background-color: #2F303A;
-}
-
-.our-team-description,
-.choosing-images-category {
-    font-size: 16px;
-    line-height: 1.188;
-    letter-spacing: 0.03em;
 }
