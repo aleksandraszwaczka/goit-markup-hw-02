@@ -84,7 +84,8 @@ body {
     background-color: #F5F4FA;
 }
 
-.our-team-description {
+.our-team-description,
+.choosing-images-category {
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
@@ -99,14 +100,21 @@ body {
 }
 
 /* PORTFOLIO */
-/* 
-.choosing-list-btn {
-    width: 145px;
-height: 38px;
-left: 712px;
-top: 174px;
 
-} */
+.choosing-list-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: #F5F4FA;
+}
+
+.choosing-list-btn:hover,
+.choosing-list-btn:focus {
+    background-color: #2196F3;
+    color: #fff;
+}
 
 
 
@@ -131,10 +139,19 @@ color: #2196F3;
 }
 
 .description-content-text,
-.our-team-description {
+.our-team-description,
+.choosing-images-category {
     color: #757575;
 }
 .main-first-section,
 .footer {
     background-color: #2F303A;
+}
+
+.our-team-description,
+.choosing-images-category {
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
