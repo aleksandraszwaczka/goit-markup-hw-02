@@ -65,6 +65,10 @@ body {
     text-transform: capitalize;
 }
 
+.our-team-description {
+    text-align: center;
+}
+
 .description-content-text {
     font-size: 14px;
     line-height: 1.714;
@@ -82,15 +86,6 @@ body {
 .our-team {
     background-color: #F5F4FA;
 }
-
-.our-team-description,
-.choosing-images-category {
-    font-size: 16px;
-    line-height: 1.188;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
 
 /* FOOTER */
 
@@ -151,6 +146,5 @@ body {
 .choosing-images-category {
     font-size: 16px;
     line-height: 1.188;
-    text-align: center;
     letter-spacing: 0.03em;
 }
