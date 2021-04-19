@@ -28,11 +28,11 @@ body {
 .header-links {
    text-decoration: none;
    text-transform: capitalize;
-   color: var(--main-color);
+   color: #212121;
 }
 
 .header-contacts {  
-    color: var(--main-color);
+    color: #757575;
     font-style: normal;
 }
 
