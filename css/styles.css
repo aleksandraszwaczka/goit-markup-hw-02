@@ -32,7 +32,6 @@ body {
 }
 
 .header-contacts {  
-    color: #757575;
     font-style: normal;
 }
 
@@ -140,6 +139,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+.header-contacts,
 .description-content-text,
 .our-team-description,
 .choosing-images-category {
