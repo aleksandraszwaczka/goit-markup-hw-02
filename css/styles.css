@@ -28,6 +28,7 @@ body {
 .header-links {
    text-decoration: none;
    text-transform: capitalize;
+   color: var(--main-color);
 }
 
 .header-contacts {  
